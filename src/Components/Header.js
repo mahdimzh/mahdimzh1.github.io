@@ -43,11 +43,11 @@ class Header extends Component {
               </a>
             </li>
 
-            <li>
+            {/*<li>
               <a className="smoothscroll" href="#portfolio">
                 Works
               </a>
-            </li>
+            </li>*/}
             
             <li>
               <a className="smoothscroll" href="#contact">
@@ -64,10 +64,10 @@ class Header extends Component {
             <h3>{description}.</h3>
             <hr />
             <ul className="social">
-              <a target="_blank" href={project} className="button btn project-btn" style={{width: 260, margin: 5}}>
-                <i className="fa fa-book"></i>Open Source Projects123
+              <a target="_blank" href={project} className="button btn project-btn" style={{width: 260, margin: 5}} rel="noreferrer">
+                <i className="fa fa-book"></i>Open Source Projects
               </a>
-              <a target="_blank" href={resumeDownload} className="button btn github-btn" style={{width: 260, margin: 5}}>
+              <a target="_blank" href={resumeDownload} className="button btn github-btn" style={{width: 260, margin: 5}} rel="noreferrer">
                 <i className="fa fa-download"></i>Download Resume
               </a>
             </ul>

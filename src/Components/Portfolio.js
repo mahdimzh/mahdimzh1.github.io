@@ -20,7 +20,7 @@ class Portfolio extends Component {
     });
 
     return (
-      <section id="portfolio">
+      <section id="portfolio" style={{display: 'none'}}>
         <div className="row">
           <div className="twelve columns collapsed">
             <h1>Check Out Some of My Works.</h1>
