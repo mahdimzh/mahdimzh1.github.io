@@ -1,6 +1,7 @@
 {
   "main": {
-    "name":"Mahdi Mohammadizadeh",
+    "name":"Mahdi",
+    "lastname":"Mohammadizadeh",
     "description":"I'm a senior software developer and researcher",
     "image":"profilepic.jpg",
     "bio":"I am experienced software engineer with a demonstrated history of working . Skilled in Java, PHP, Javascript and its framework include Laravel, React, Extjs, ... and also skilled in SQL, NoSQL, linux and C++.",
